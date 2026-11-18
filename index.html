@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/png;base64,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">
+<title>Keytone</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Keytone is a tiny Mac menu bar app that plays a satisfying sound every time you press a key: thocky, creamy, clicky, raindrops and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..650;1,14..32,400..600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a centred column on warm paper; one big live demo (the real Keytone panel over a
+   halftone field that ripples as you type), then a 3x3 bento of features, setup, FAQ. */
+:root {
+  --bg: #FAFAF8;
+  --fg: #161517;
+  --muted: #69676E;
+  --faint: #9A98A0;
+  --line: rgba(22, 21, 23, 0.08);
+  --line-strong: rgba(22, 21, 23, 0.14);
+  --card: #FFFFFF;
+  --sunk: #F3F2F0;
+  --panel: rgba(255, 255, 255, 0.9);
+  --menubar: rgba(255, 255, 255, 0.72);
+  --field: #FFFFFF;
+  --btn: #161517;
+  --btn-fg: #FFFFFF;
+  --g1: #7B6CFF;
+  --g2: #E35BD6;
+  --g3: #FF9F6B;
+  --ok: #2E9D6A;
+  --shadow: 0 1px 2px rgba(22, 21, 23, 0.05), 0 10px 30px rgba(22, 21, 23, 0.07);
+  --panel-shadow: 0 1px 1px rgba(22, 21, 23, 0.04), 0 24px 60px rgba(22, 21, 23, 0.18);
+
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --t-hero: clamp(2.5rem, 6.4vw, 4.25rem);
+  --t-h2: clamp(2rem, 4.4vw, 2.9rem);
+  --t-lead: 1.0625rem;
+  --t-body: 0.9375rem;
+  --t-small: 0.8125rem;
+  --t-micro: 0.6875rem;
+  --radius: 18px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E0D10; --fg: #F3F2F5; --muted: #A4A1AB; --faint: #6F6C76;
+    --line: rgba(255, 255, 255, 0.08); --line-strong: rgba(255, 255, 255, 0.14);
+    --card: #161519; --sunk: #121115; --panel: rgba(30, 29, 34, 0.9); --menubar: rgba(30, 29, 34, 0.7);
+    --field: #1C1B20; --btn: #F3F2F5; --btn-fg: #121115; --ok: #4CC08A;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.25);
+    --panel-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 24px 60px rgba(0, 0, 0, 0.55);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E0D10; --fg: #F3F2F5; --muted: #A4A1AB; --faint: #6F6C76;
+  --line: rgba(255, 255, 255, 0.08); --line-strong: rgba(255, 255, 255, 0.14);
+  --card: #161519; --sunk: #121115; --panel: rgba(30, 29, 34, 0.9); --menubar: rgba(30, 29, 34, 0.7);
+  --field: #1C1B20; --btn: #F3F2F5; --btn-fg: #121115; --ok: #4CC08A;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.25);
+  --panel-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 24px 60px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: var(--t-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--bg);
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--g1); outline-offset: 2px; border-radius: 6px; }
+.wrap { max-width: 1080px; margin: 0 auto; }
+h1, h2, h3 { font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: var(--t-hero); line-height: 1.02; letter-spacing: -0.035em; }
+h2 { font-size: var(--t-h2); line-height: 1.06; letter-spacing: -0.03em; }
+h3 { font-size: var(--t-body); font-weight: 600; letter-spacing: -0.005em; }
+.ital {
+  font-style: italic; font-weight: 450;
+  background: linear-gradient(95deg, var(--g1), var(--g2) 55%, var(--g3));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  padding-right: 0.06em;
+}
+p { margin: 0; }
+.muted { color: var(--muted); }
+.center { text-align: center; }
+
+/* Nav */
+.nav {
+  position: sticky; top: calc(env(safe-area-inset-top, 0px) + 14px); z-index: 20;
+  display: flex; justify-content: center; margin-top: 14px;
+}
+.nav-pill {
+  display: flex; align-items: center; gap: 4px; padding: 5px 6px 5px 8px;
+  background: color-mix(in srgb, var(--card) 82%, transparent);
+  backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow);
+  max-width: 100%;
+}
+.brand { display: flex; align-items: center; gap: 8px; padding-right: 8px; font-weight: 600; font-size: var(--t-small); text-decoration: none; }
+.brand img { width: 22px; height: 22px; border-radius: 6px; }
+.nav-links { display: flex; gap: 2px; }
+.nav-links a {
+  text-decoration: none; font-size: var(--t-small); color: var(--muted);
+  padding: 5px 10px; border-radius: 999px;
+}
+.nav-links a:hover { color: var(--fg); background: var(--sunk); }
+.icon-btn {
+  width: 30px; height: 30px; display: grid; place-items: center; border-radius: 999px;
+  border: 0; background: transparent; color: var(--muted); cursor: pointer;
+}
+.icon-btn:hover { background: var(--sunk); color: var(--fg); }
+@media (max-width: 560px) { .nav-links a.opt { display: none; } }
+
+/* Hero */
+.hero { padding-block: 72px 28px; display: grid; justify-items: center; gap: 22px; text-align: center; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 8px; font-size: var(--t-small);
+  color: var(--muted); padding: 4px 12px 4px 5px; border: 1px solid var(--line);
+  border-radius: 999px; background: var(--card);
+}
+.eyebrow img { width: 20px; height: 20px; border-radius: 5px; }
+.eyebrow b { color: var(--fg); font-weight: 600; }
+.lead { font-size: var(--t-lead); color: var(--muted); max-width: 34rem; }
+.ctas { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 18px;
+  border-radius: 999px; font: 600 var(--t-small)/1 var(--font); text-decoration: none; cursor: pointer;
+  border: 1px solid var(--line-strong); background: var(--card); color: var(--fg);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+.btn.primary { background: var(--btn); color: var(--btn-fg); border-color: transparent; position: relative; }
+.btn.primary::after {
+  content: ""; position: absolute; inset: -1px; border-radius: inherit; z-index: -1;
+  background: linear-gradient(95deg, var(--g1), var(--g2), var(--g3)); filter: blur(12px); opacity: .45;
+}
+.fine { font-size: var(--t-small); color: var(--faint); }
+
+/* Demo stage */
+.stage {
+  position: relative; border-radius: 22px; overflow: hidden; border: 1px solid var(--line);
+  background: var(--sunk); box-shadow: var(--shadow); isolation: isolate;
+}
+.stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
+.menubar {
+  display: flex; align-items: center; justify-content: flex-end; gap: 14px; height: 30px;
+  padding: 0 14px; background: var(--menubar); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line); font-size: 12px; font-weight: 500; color: var(--fg);
+}
+.menubar .left { margin-right: auto; display: flex; gap: 16px; color: var(--muted); }
+.menubar .left b { color: var(--fg); font-weight: 650; }
+.mb-key { display: grid; place-items: center; width: 28px; height: 22px; border-radius: 5px; background: color-mix(in srgb, var(--fg) 12%, transparent); }
+.stage-body { display: flex; justify-content: flex-end; padding: 10px 6% 56px; }
+@media (max-width: 720px) {
+  .stage-body { justify-content: center; padding: 10px 12px 28px; }
+  .menubar .left span:not(:first-child) { display: none; }
+}
+
+/* The Keytone panel (a faithful copy of the app's menu bar window) */
+.panel {
+  width: 340px; max-width: 100%; background: var(--panel); border: 1px solid var(--line-strong);
+  border-radius: 14px; box-shadow: var(--panel-shadow); padding: 18px; text-align: left;
+  backdrop-filter: blur(24px) saturate(1.5); -webkit-backdrop-filter: blur(24px) saturate(1.5);
+  display: grid; gap: 14px;
+}
+.p-head { display: flex; align-items: center; justify-content: space-between; }
+.p-title { font-size: 17px; font-weight: 600; letter-spacing: -0.01em; }
+.p-sub { font-size: 11px; color: var(--muted); }
+.switch { position: relative; width: 32px; height: 19px; flex: none; }
+.switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.switch span {
+  position: absolute; inset: 0; border-radius: 999px; background: color-mix(in srgb, var(--fg) 18%, transparent);
+  transition: background .2s ease; pointer-events: none;
+}
+.switch span::after {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 15px; height: 15px; border-radius: 50%;
+  background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.3); transition: transform .2s ease;
+}
+.switch input:checked + span { background: var(--ok); }
+.switch input:checked + span::after { transform: translateX(13px); }
+.switch input:focus-visible + span { outline: 2px solid var(--g1); outline-offset: 2px; }
+.switch.mini { width: 26px; height: 15px; }
+.switch.mini span::after { width: 11px; height: 11px; }
+.switch.mini input:checked + span::after { transform: translateX(11px); }
+.p-label { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); }
+.tiles { display: grid; gap: 8px; }
+.tiles.k { grid-template-columns: repeat(3, 1fr); }
+.tiles.a { grid-template-columns: repeat(4, 1fr); }
+.tile {
+  display: grid; justify-items: center; gap: 6px; padding: 12px 2px 10px; border-radius: 12px; border: 0;
+  background: color-mix(in srgb, var(--fg) 5%, transparent); color: color-mix(in srgb, var(--fg) 78%, transparent);
+  font: 500 11px/1.1 var(--font); cursor: pointer; min-width: 0;
+  transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+}
+.tile:hover { background: color-mix(in srgb, var(--fg) 9%, transparent); transform: scale(1.03); }
+.tile svg { width: 19px; height: 19px; }
+.tile span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.tile[aria-pressed="true"] {
+  color: #fff; transform: none;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--tint) 80%, #fff), var(--tint));
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--tint) 40%, transparent);
+}
+.p-tag { font-size: 11px; color: var(--muted); min-height: 2.6em; }
+.p-dim { transition: opacity .2s ease; display: grid; gap: 10px; }
+.p-dim.off { opacity: .4; }
+.vol { display: flex; align-items: center; gap: 10px; color: var(--faint); }
+.vol input { flex: 1; min-width: 0; accent-color: var(--g2); }
+.rows { display: grid; gap: 9px; font-size: 12px; }
+.row { display: flex; justify-content: space-between; align-items: center; }
+.p-field {
+  width: 100%; font: 12px var(--font); color: var(--fg); padding: 9px 12px; border-radius: 10px;
+  border: 1px solid transparent; background: color-mix(in srgb, var(--fg) 5%, transparent);
+}
+.p-field:focus { outline: none; border-color: color-mix(in srgb, var(--g1) 60%, transparent); }
+.stage-note { margin-top: 14px; font-size: var(--t-small); color: var(--muted); text-align: center; }
+.stage-note b { color: var(--fg); font-weight: 600; }
+kbd {
+  font: 500 11px var(--mono); padding: 1px 6px; border-radius: 5px; border: 1px solid var(--line-strong);
+  border-bottom-width: 2px; background: var(--card); color: var(--fg);
+}
+
+/* Three points */
+.points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding-block: 48px 8px; text-align: center; }
+.point { display: grid; justify-items: center; gap: 6px; }
+.point svg { color: var(--muted); }
+.point p { font-size: var(--t-small); color: var(--muted); max-width: 16rem; }
+@media (max-width: 640px) { .points { grid-template-columns: 1fr; gap: 20px; } }
+.modelled { display: grid; justify-items: center; gap: 12px; padding-block: 36px 24px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.chip {
+  font-size: var(--t-small); padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--card); color: var(--fg);
+}
+.kicker { font-size: var(--t-micro); font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); }
+
+/* Sections */
+section { padding-block: 88px 0; scroll-margin-top: 70px; }
+.sec-head { display: grid; justify-items: center; gap: 14px; text-align: center; margin-bottom: 36px; }
+.sec-head p { max-width: 36rem; color: var(--muted); font-size: var(--t-lead); }
+
+/* Bento */
+.bento { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 900px) { .bento { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .bento { grid-template-columns: 1fr; } }
+.card {
+  background: var(--sunk); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px; display: grid; grid-template-rows: auto 1fr; gap: 14px; min-width: 0;
+}
+.viz {
+  height: 156px; border-radius: 12px; background: var(--card); border: 1px solid var(--line);
+  display: grid; place-items: center; overflow: hidden; position: relative; padding: 12px;
+}
+.card-text { padding: 0 4px 4px; display: grid; gap: 4px; align-content: start; }
+.card-text p { font-size: var(--t-small); color: var(--muted); }
+
+/* viz: sound chips */
+.mini-tiles { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; max-width: 270px; }
+.mini-tiles span {
+  font-size: 11px; font-weight: 500; padding: 3px 9px; border-radius: 999px; color: #fff;
+  background: var(--tint);
+}
+/* viz: spectrum */
+.spec { width: 100%; height: 100%; }
+.spec text { font: 10px var(--mono); fill: var(--faint); }
+.legend { position: absolute; top: 10px; right: 12px; display: grid; gap: 2px; font-size: 10px; color: var(--muted); text-align: right; }
+.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 5px; }
+/* viz: keycaps */
+.caps { display: flex; gap: 8px; align-items: flex-end; }
+.cap { display: grid; justify-items: center; gap: 8px; }
+.cap kbd { font-size: 12px; padding: 8px 10px; border-radius: 8px; border-bottom-width: 3px; min-width: 36px; text-align: center; }
+.cap small { font: 10px var(--mono); color: var(--faint); }
+/* viz: stereo */
+.kb { display: grid; gap: 4px; width: 100%; max-width: 250px; }
+.kb-row { display: flex; gap: 4px; }
+.kb-row i { flex: 1; height: 16px; border-radius: 4px; border: 1px solid var(--line-strong); background: var(--card); }
+.pan { display: flex; justify-content: space-between; font: 10px var(--mono); color: var(--faint); margin-top: 8px; }
+.pan-bar { height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--g1), var(--g2), var(--g3)); margin-top: 4px; }
+/* viz: waveforms */
+.waves { display: grid; gap: 6px; width: 100%; max-width: 250px; }
+.waves svg { width: 100%; height: 28px; }
+.waves .wl { display: flex; justify-content: space-between; font: 10px var(--mono); color: var(--faint); }
+/* viz: menu bar */
+.mini-mb {
+  width: 100%; max-width: 250px; height: 26px; border-radius: 7px; border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: flex-end; gap: 12px; padding: 0 10px;
+  font-size: 11px; font-weight: 500; background: var(--sunk);
+}
+.mini-pop { width: 120px; margin-left: auto; margin-top: 6px; border-radius: 8px; border: 1px solid var(--line-strong); background: var(--card); box-shadow: var(--shadow); padding: 7px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+.mini-pop i { height: 18px; border-radius: 4px; background: color-mix(in srgb, var(--fg) 7%, transparent); }
+.mini-pop i.on { background: linear-gradient(160deg, var(--g1), var(--g2)); }
+.lockline { display: grid; gap: 8px; width: 100%; max-width: 240px; font: 11px var(--mono); }
+.lockline div { display: flex; justify-content: space-between; padding: 6px 10px; border-radius: 8px; background: var(--sunk); border: 1px solid var(--line); }
+.lockline .no { color: var(--faint); text-decoration: line-through; }
+.outs { display: flex; gap: 10px; align-items: center; color: var(--muted); font-size: 11px; }
+.outs .dev { display: grid; justify-items: center; gap: 6px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--sunk); }
+.outs .dev.on { border-color: color-mix(in srgb, var(--g2) 50%, transparent); color: var(--fg); }
+
+/* Setup */
+.setup { display: grid; grid-template-columns: 1.15fr 1fr; gap: 12px; align-items: stretch; }
+@media (max-width: 800px) { .setup { grid-template-columns: 1fr; } }
+.steps { list-style: none; margin: 0; padding: 26px; display: grid; gap: 22px; counter-reset: s; background: var(--sunk); border: 1px solid var(--line); border-radius: var(--radius); }
+.steps li { display: grid; grid-template-columns: 30px 1fr; gap: 12px; counter-increment: s; }
+.steps li::before {
+  content: counter(s); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font: 600 12px var(--font); background: var(--card); border: 1px solid var(--line-strong);
+}
+.steps p { font-size: var(--t-small); color: var(--muted); }
+.get {
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--card); box-shadow: var(--shadow);
+  padding: 26px; display: grid; gap: 16px; align-content: start;
+}
+.get-top { display: flex; gap: 14px; align-items: center; }
+.get-top img { width: 56px; height: 56px; }
+.get ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: var(--t-small); }
+.get li { display: flex; gap: 8px; align-items: baseline; }
+.get li svg { flex: none; color: var(--ok); transform: translateY(2px); }
+.get .btn { justify-content: center; }
+
+/* FAQ */
+.faq { max-width: 680px; margin: 0 auto; }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary {
+  list-style: none; cursor: pointer; padding: 16px 2px; font-weight: 500; display: flex;
+  justify-content: space-between; gap: 16px; align-items: center;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary svg { flex: none; color: var(--faint); transition: transform .2s ease; }
+.faq details[open] summary svg { transform: rotate(90deg); }
+.faq details p { padding: 0 2px 18px; color: var(--muted); font-size: var(--t-body); max-width: 60ch; }
+
+/* Closing + footer */
+.closing { display: grid; justify-items: center; gap: 22px; text-align: center; padding-block: 120px 40px; }
+footer {
+  margin-top: 64px; padding-block: 28px 40px; border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center;
+  font-size: var(--t-small); color: var(--muted);
+}
+footer .brand { padding: 0; }
+footer nav { display: flex; gap: 16px; }
+footer nav a { text-decoration: none; }
+footer nav a:hover { color: var(--fg); }
+
+@media (prefers-reduced-motion: reduce) {
+  .tile, .btn, .switch span, .switch span::after { transition: none; }
+}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header class="nav">
+    <nav class="nav-pill" aria-label="Main">
+      <a class="brand" href="#top"><img src="data:image/png;base64,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" alt="">Keytone</a>
+      <div class="nav-links">
+        <a href="#top">Overview</a>
+        <a href="#features">Features</a>
+        <a class="opt" href="#get">Get it</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <span class="eyebrow"><img src="data:image/png;base64,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" alt=""><b>Keytone</b> Keyboard sounds for Mac</span>
+      <h1>Make every keystroke<br><span class="ital">sound satisfying</span></h1>
+      <p class="lead">A tiny menu bar app that plays a sound each time you press a key. Thocky, creamy, clicky, a manual typewriter or rain on a pond.</p>
+      <div class="ctas">
+        <a class="btn primary" href="#get" data-download>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+          Download for macOS
+        </a>
+        <a class="btn" href="#demo">Hear it here</a>
+      </div>
+      <p class="fine">macOS 13 Ventura or later · 13 sounds · Works offline</p>
+    </div>
+
+    <div id="demo">
+      <div class="stage" id="stage">
+        <canvas id="dots" aria-hidden="true"></canvas>
+        <div class="menubar" aria-hidden="true">
+          <div class="left"><b>Notes</b><span>File</span><span>Edit</span><span>Format</span><span>View</span></div>
+          <span class="mb-key">
+            <svg width="16" height="12" viewBox="0 0 24 16" fill="currentColor"><rect x="0" y="0" width="24" height="16" rx="3"/><g fill="var(--bg)"><rect x="3" y="3" width="3" height="3" rx=".6"/><rect x="8" y="3" width="3" height="3" rx=".6"/><rect x="13" y="3" width="3" height="3" rx=".6"/><rect x="18" y="3" width="3" height="3" rx=".6"/><rect x="5" y="10" width="14" height="3" rx=".8"/></g></svg>
+          </span>
+          <span>Tue 9:41</span>
+        </div>
+        <div class="stage-body">
+          <div class="panel" role="group" aria-label="Keytone panel">
+            <div class="p-head">
+              <div>
+                <div class="p-title">Keytone</div>
+                <div class="p-sub" id="p-sub">Thocky</div>
+              </div>
+              <label class="switch"><input type="checkbox" id="enabled" checked aria-label="Play sounds"><span></span></label>
+            </div>
+            <div class="p-dim" id="p-dim">
+              <div class="p-label">Keyboards</div>
+              <div class="tiles k" id="tiles-k"></div>
+              <div class="p-label" style="margin-top:4px">Ambient</div>
+              <div class="tiles a" id="tiles-a"></div>
+              <p class="p-tag" id="p-tag"></p>
+            </div>
+            <div class="vol">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M4 9h4l5-4v14l-5-4H4z"/></svg>
+              <input type="range" id="volume" min="0" max="1" step="0.01" value="0.7" aria-label="Volume">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor" stroke="none"/><path d="M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12"/></svg>
+            </div>
+            <div class="rows">
+              <div class="row"><label for="release">Key release sounds</label><span class="switch mini"><input type="checkbox" id="release" checked><span></span></span></div>
+              <div class="row"><label for="stereo">Stereo by key position</label><span class="switch mini"><input type="checkbox" id="stereo" checked><span></span></span></div>
+            </div>
+            <input class="p-field" id="try" type="text" placeholder="Type here to try it…" autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+      <p class="stage-note">This is Keytone’s real sound engine running in your browser. <b>Pick a sound and start typing</b>, anywhere on this page. <kbd>space</kbd> and <kbd>return</kbd> sound deeper.</p>
+    </div>
+
+    <div class="points">
+      <div class="point">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="5" rx="1.5"/><path d="M14 9v5h7V9"/></svg>
+        <h3>Lives in the menu bar</h3>
+        <p>No Dock icon. Click the keyboard to change sounds, then forget it’s there.</p>
+      </div>
+      <div class="point">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 14h8"/></svg>
+        <h3>One sound per press</h3>
+        <p>Hold a key and you hear it once, the way a real switch behaves.</p>
+      </div>
+      <div class="point">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+        <h3>Private</h3>
+        <p>Keytone uses only which key you pressed. Nothing is stored or sent anywhere.</p>
+      </div>
+    </div>
+
+    <div class="modelled">
+      <span class="kicker">Modelled on</span>
+      <div class="chips">
+        <span class="chip">Lubed linears</span><span class="chip">Click-jacket switches</span><span class="chip">Tactile bumps</span>
+        <span class="chip">Buckling springs</span><span class="chip">Manual typewriters</span><span class="chip">Laptop keys</span>
+        <span class="chip">Rain on water</span><span class="chip">Wood blocks</span>
+      </div>
+    </div>
+
+    <section id="features">
+      <div class="sec-head">
+        <h2>Sounds that behave like<br><span class="ital">the real thing</span></h2>
+        <p>Every sound is built from the physics of a key press: the strike, the parts that ring, and how quickly they settle.</p>
+      </div>
+      <div class="bento">
+        <article class="card">
+          <div class="viz"><div class="mini-tiles" id="mini-tiles"></div></div>
+          <div class="card-text"><h3>Thirteen sounds</h3><p>Nine keyboards and four ambient sounds, from deep thock to bubbles on a pentatonic scale.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz" style="padding:10px 10px 6px">
+            <svg class="spec" id="spec" viewBox="0 0 280 136" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Thocky frequency spectrum: real recording and Keytone, nearly identical"></svg>
+            <div class="legend"><span><i style="background:var(--faint)"></i>Recorded keyboard</span><span><i style="background:var(--g2)"></i>Keytone</span></div>
+          </div>
+          <div class="card-text"><h3>Fitted to real keyboards</h3><p>Thocky, Creamy, Poppy, Clacky and Clicky are matched to recordings, within about 1.5 dB across the spectrum.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div class="caps">
+              <div class="cap"><kbd>A</kbd><small>1.00×</small></div>
+              <div class="cap"><kbd>delete</kbd><small>0.90×</small></div>
+              <div class="cap"><kbd>return</kbd><small>0.84×</small></div>
+              <div class="cap"><kbd style="min-width:84px">space</kbd><small>0.68×</small></div>
+            </div>
+          </div>
+          <div class="card-text"><h3>Big keys sound bigger</h3><p>Space, Return and Delete ring lower and longer, and rattle their stabiliser wire.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div style="width:100%;max-width:250px">
+              <div class="kb">
+                <div class="kb-row"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="kb-row" style="padding:0 6px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="kb-row" style="padding:0 18px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="kb-row" style="padding:0 48px"><i></i></div>
+              </div>
+              <div class="pan-bar"></div>
+              <div class="pan"><span>◂ left</span><span>Q … P</span><span>right ▸</span></div>
+            </div>
+          </div>
+          <div class="card-text"><h3>Stereo by key position</h3><p>With headphones, keys on the left of the keyboard sound from the left.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div class="waves">
+              <svg viewBox="0 0 250 28" preserveAspectRatio="none" id="wave-press"></svg>
+              <div class="wl"><span>press</span><span>release</span></div>
+            </div>
+          </div>
+          <div class="card-text"><h3>Press and release</h3><p>The strike on the way down and the softer top-out on the way up. Turn release sounds off for a quieter feel.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div class="waves" id="variants"></div>
+          </div>
+          <div class="card-text"><h3>Never the same twice</h3><p>Each key press picks one of twelve takes, each slightly different in pitch, decay and strike, like a real keyboard.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div style="width:100%;max-width:250px">
+              <div class="mini-mb"><span class="mb-key" style="width:24px;height:18px"><svg width="13" height="10" viewBox="0 0 24 16" fill="currentColor"><rect width="24" height="16" rx="3"/></svg></span><span>9:41</span></div>
+              <div class="mini-pop"><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="card-text"><h3>Out of the way</h3><p>Opens at login if you like, sits in the menu bar, and pauses with one switch.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div class="lockline">
+              <div><span>key code</span><span>49 · space</span></div>
+              <div><span>position</span><span>centre</span></div>
+              <div class="no"><span>what you typed</span><span>never</span></div>
+            </div>
+          </div>
+          <div class="card-text"><h3>Private by design</h3><p>Keytone needs to know a key was pressed, and which one. It doesn’t store your typing and makes no network connections.</p></div>
+        </article>
+        <article class="card">
+          <div class="viz">
+            <div class="outs">
+              <div class="dev"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="11" rx="1.5"/><path d="M1 19h22"/></svg>Speakers</div>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              <div class="dev on"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>Headphones</div>
+            </div>
+          </div>
+          <div class="card-text"><h3>Follows your audio</h3><p>Plug in headphones or switch speakers and Keytone keeps playing without a restart.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="get">
+      <div class="sec-head">
+        <h2>Set up in <span class="ital">a minute</span></h2>
+      </div>
+      <div class="setup">
+        <ol class="steps">
+          <li><div><h3>Download and open Keytone</h3><p>Move it to Applications and open it. A keyboard icon appears in your menu bar.</p></div></li>
+          <li><div><h3>Allow keyboard access</h3><p>macOS asks before any app can hear keys pressed in other apps. Click Allow in the panel, then switch Keytone on in System Settings › Privacy &amp; Security › Accessibility.</p></div></li>
+          <li><div><h3>Pick a sound</h3><p>Choose from the grid and type. Set the volume, and turn on Open at login if you want it every day.</p></div></li>
+        </ol>
+        <div class="get">
+          <div class="get-top">
+            <img src="data:image/png;base64,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" alt="Keytone app icon">
+            <div><h3 style="font-size:1.05rem">Keytone</h3><p class="muted" style="font-size:var(--t-small)">Keyboard sounds for Mac</p></div>
+          </div>
+          <ul>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>13 sounds, 5 fitted to real keyboards</li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Volume, release sounds and stereo controls</li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Works offline, nothing leaves your Mac</li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>macOS 13 Ventura or later</li>
+          </ul>
+          <a class="btn primary" href="#get" data-download>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+            Download for macOS
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="sec-head"><h2>Questions</h2></div>
+      <div class="faq">
+        <details><summary>What does Keytone do?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>It plays a short sound every time you press a key, in any app. Pick the sound from the menu bar: mechanical keyboards, a typewriter, a quiet laptop tap, raindrops, bubbles or wood.</p></details>
+        <details><summary>Does Keytone record what I type?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>No. It uses only which key was pressed, to choose the sound and where it sits in stereo. It doesn’t save your typing and makes no network connections.</p></details>
+        <details><summary>Why does it need Accessibility access?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>macOS only lets an app notice key presses in other apps once you allow it under System Settings › Privacy &amp; Security › Accessibility. Without it, Keytone can only play sounds while its own panel is open.</p></details>
+        <details><summary>Why is there no sound in password fields?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>macOS hides key presses from every other app while you type a password. That’s a good thing, and it means Keytone stays quiet there.</p></details>
+        <details><summary>Which sounds are based on real keyboards?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>Thocky, Creamy, Poppy, Clacky and Clicky are fitted to recordings of real keyboards: the energy and decay of each key press were measured across 18 frequency bands and matched. The other sounds are modelled from how each one physically makes its sound.</p></details>
+        <details><summary>Will it slow down my Mac?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>Sounds are prepared once, in about a tenth of a second, when you choose a profile. After that each key press just plays a short clip that’s already in memory.</p></details>
+        <details><summary>What do I need to run it?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>A Mac running macOS 13 Ventura or later.</p></details>
+        <details><summary>How do I uninstall it?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>Turn off Open at login in the panel and quit Keytone. Remove it from System Settings › Privacy &amp; Security › Accessibility, then drag Keytone from Applications to the Bin.</p></details>
+      </div>
+    </section>
+
+    <div class="closing">
+      <h2>Ready to hear<br><span class="ital">your keyboard?</span></h2>
+      <div class="ctas">
+        <a class="btn primary" href="#get" data-download>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+          Download for macOS
+        </a>
+        <a class="btn" href="#demo">Try the sounds</a>
+      </div>
+      <p class="fine">macOS 13 Ventura or later · Works offline</p>
+    </div>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><img src="data:image/png;base64,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" alt="">© 2026 Keytone</a>
+    <nav aria-label="Footer"><a href="#features">Features</a><a href="#get">Get it</a><a href="#faq">FAQ</a></nav>
+  </footer>
+</div>
+
+<script>
+// Where the "Download for macOS" buttons point. Set this once the app is hosted.
+const DOWNLOAD_URL = "";
+
+// The same recipe data the Mac app embeds (Recipes/recipes.json).
+const RECIPES = {"about":"Keytone sound recipes. Times in ms, frequencies in Hz. A value can be a number, [base, jitter], {\"range\": [a, b]} or {\"choice\": [...]}. Modes are [freq, decay-time-constant ms, gain]. Run `python3 tools/synth.py embed` after editing.","kinds":{"standard":{"pitch":1.0,"decay":1.0,"level":1.0,"stab":false},"space":{"pitch":0.68,"decay":1.5,"level":1.0,"stab":true},"enter":{"pitch":0.84,"decay":1.25,"level":1.0,"stab":true},"backspace":{"pitch":0.9,"decay":1.15,"level":1.0,"stab":true},"modifier":{"pitch":0.94,"decay":1.05,"level":0.85,"stab":false}},"stabilizer":[{"type":"impact","t":[6,0.4],"width":0.1,"fixed":true,"modes":[[[2350,0.06],5,1.0],[[3900,0.06],3.5,0.6],[[5600,0.06],2.5,0.35]]},{"type":"noise","t":[6,0.4],"bp":2800,"q":1.5,"gain":0.3,"attack":0.2,"decay":4,"fixed":true}],"profiles":{"thock":{"about":"Fitted to a recording of a thocky board: a short, dense burst centred on 1-2.5 kHz with a soft low body and quickly rolled-off treble.","source":"Fitted with tools/fit_reference.py","decayJitter":0.08,"stab":0.2,"down":{"level":0.919,"events":[{"type":"spike","t":0,"width":0.1,"gain":[20.0,0.25],"lp":2500.0,"hp":800.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0033,0.2],"decay":6.98},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.001,0.2],"decay":6.9},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0127,0.2],"decay":6.81},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.0005,0.2],"decay":5.68},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.1812,0.2],"decay":3.69},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.4383,0.2],"decay":2.72},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.5158,0.2],"decay":3.11},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.0667,0.2],"decay":4.3},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.1214,0.2],"decay":3.59},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[1.0,0.2],"decay":1.94},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.564,0.2],"decay":1.41},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.0403,0.2],"decay":1.83},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.0292,0.2],"decay":3.65},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0031,0.2],"decay":4.95},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0255,0.2],"decay":2.89},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0327,0.2],"decay":1.59},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.0458,0.2],"decay":1.51},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.0495,0.2],"decay":1.79}]},"up":{"level":0.666,"events":[{"type":"spike","t":0,"width":0.1,"gain":[20.0,0.25],"lp":3150.0,"hp":1000.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.019,0.2],"decay":3.12},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0175,0.2],"decay":4.25},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0604,0.2],"decay":4.93},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.0564,0.2],"decay":3.88},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.1178,0.2],"decay":2.27},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.1473,0.2],"decay":1.74},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.2801,0.2],"decay":2.44},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.1297,0.2],"decay":2.94},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.4856,0.2],"decay":1.89},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[1.0,0.2],"decay":1.33},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.7775,0.2],"decay":1.65},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.0027,0.2],"decay":3.0},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.0,0.2],"decay":4.61},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0035,0.2],"decay":4.96},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0084,0.2],"decay":4.7},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0191,0.2],"decay":3.01},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.0732,0.2],"decay":1.51},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.0671,0.2],"decay":1.17}]}},"creamy":{"about":"Fitted to a recording of a creamy board: smooth and muted, energy concentrated around 1.5-2.5 kHz with very little treble.","source":"Fitted with tools/fit_reference.py","decayJitter":0.08,"stab":0.12,"down":{"level":0.656,"events":[{"type":"spike","t":0,"width":0.1,"gain":[1.1858,0.25],"lp":3150.0,"hp":800.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0049,0.2],"decay":6.1},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0019,0.2],"decay":6.1},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0072,0.2],"decay":5.86},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.0345,0.2],"decay":4.84},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.1344,0.2],"decay":4.22},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.3145,0.2],"decay":4.93},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.2033,0.2],"decay":5.44},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.161,0.2],"decay":4.54},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.309,0.2],"decay":2.75},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[1.0,0.2],"decay":1.61},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.5904,0.2],"decay":1.46},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.253,0.2],"decay":1.35},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.1642,0.2],"decay":1.11},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0779,0.2],"decay":1.41},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0142,0.2],"decay":2.2},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0103,0.2],"decay":2.14},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.0672,0.2],"decay":1.26},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.154,0.2],"decay":0.78}]},"up":{"level":0.464,"events":[{"type":"spike","t":0,"width":0.1,"gain":[20.0,0.25],"lp":3150.0,"hp":630.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.118,0.2],"decay":10.16},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0929,0.2],"decay":10.16},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.045,0.2],"decay":10.16},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.0211,0.2],"decay":10.09},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.1784,0.2],"decay":8.34},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.4303,0.2],"decay":6.01},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.057,0.2],"decay":6.26},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.0119,0.2],"decay":7.75},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.0498,0.2],"decay":5.22},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[1.0,0.2],"decay":2.41},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.1769,0.2],"decay":1.65},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.2327,0.2],"decay":1.72},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.1561,0.2],"decay":1.94},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0031,0.2],"decay":1.81},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0193,0.2],"decay":1.47},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0697,0.2],"decay":1.42},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.0706,0.2],"decay":1.25},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.172,0.2],"decay":0.84}]}},"poppy":{"about":"Fitted to a recording of a poppy board: a sharp, high 'pop' peaking around 2-2.5 kHz with a bright top end and a very fast decay.","source":"Fitted with tools/fit_reference.py","decayJitter":0.08,"stab":0.25,"down":{"level":0.774,"events":[{"type":"spike","t":0,"width":0.1,"gain":[1.433,0.25],"lp":5000.0,"hp":1600.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0164,0.2],"decay":3.67},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0251,0.2],"decay":3.49},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0552,0.2],"decay":3.67},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.054,0.2],"decay":3.28},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.0705,0.2],"decay":2.6},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.0742,0.2],"decay":2.56},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.2396,0.2],"decay":2.55},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.1936,0.2],"decay":2.12},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.5332,0.2],"decay":1.58},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[1.0,0.2],"decay":1.34},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.8821,0.2],"decay":1.24},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.8625,0.2],"decay":1.01},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.3033,0.2],"decay":0.82},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.471,0.2],"decay":0.9},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.1099,0.2],"decay":1.14},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0728,0.2],"decay":1.06},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.2356,0.2],"decay":0.8},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.2631,0.2],"decay":0.71}]},"up":{"level":0.362,"events":[{"type":"spike","t":0,"width":0.1,"gain":[20.0,0.25],"lp":3150.0,"hp":1250.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0328,0.2],"decay":3.92},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0105,0.2],"decay":3.92},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.1264,0.2],"decay":2.43},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.2086,0.2],"decay":0.9},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.5183,0.2],"decay":0.52},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.2071,0.2],"decay":0.68},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.3398,0.2],"decay":1.45},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.0397,0.2],"decay":2.25},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.054,0.2],"decay":1.79},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[1.0,0.2],"decay":1.29},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.353,0.2],"decay":1.25},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.2554,0.2],"decay":1.44},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.0127,0.2],"decay":1.31},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.1793,0.2],"decay":1.26},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.029,0.2],"decay":1.82},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0025,0.2],"decay":1.68},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.187,0.2],"decay":0.91},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.3061,0.2],"decay":0.68}]}},"clacky":{"about":"Fitted to a recording of a clacky board: bright, wide clack spread across 1.5-5 kHz.","source":"Fitted with tools/fit_reference.py","decayJitter":0.08,"stab":0.3,"down":{"level":1.0,"events":[{"type":"spike","t":0,"width":0.1,"gain":[20.0,0.25],"lp":5000.0,"hp":1000.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.118,0.2],"decay":1.88},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0135,0.2],"decay":3.29},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0976,0.2],"decay":4.49},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.173,0.2],"decay":5.34},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.1088,0.2],"decay":6.09},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.0087,0.2],"decay":4.58},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.3213,0.2],"decay":3.3},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.1108,0.2],"decay":4.35},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.0029,0.2],"decay":4.4},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[0.3729,0.2],"decay":2.06},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[1.0,0.2],"decay":1.46},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.0601,0.2],"decay":2.31},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.0222,0.2],"decay":3.06},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.289,0.2],"decay":2.6},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0275,0.2],"decay":2.26},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0045,0.2],"decay":1.95},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.3706,0.2],"decay":1.43},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.4516,0.2],"decay":1.08}]},"up":{"level":0.578,"events":[{"type":"spike","t":0,"width":0.1,"gain":[8.5028,0.25],"lp":12500.0,"hp":1600.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0053,0.2],"decay":3.53},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0005,0.2],"decay":3.45},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0101,0.2],"decay":3.37},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.0498,0.2],"decay":3.31},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.0379,0.2],"decay":3.26},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.1212,0.2],"decay":3.02},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.1971,0.2],"decay":2.81},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.167,0.2],"decay":2.91},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.1602,0.2],"decay":2.24},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[0.8483,0.2],"decay":1.28},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[1.0,0.2],"decay":0.95},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.5518,0.2],"decay":1.06},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.1805,0.2],"decay":1.38},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0314,0.2],"decay":1.79},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0001,0.2],"decay":1.92},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0001,0.2],"decay":1.48},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[0.0371,0.2],"decay":1.01},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.5458,0.2],"decay":0.75}]},"drive":1.9},"clicky":{"about":"Fitted to a recording of a clicky board: click-jacket snap with energy up to 8 kHz, and the bottom-out landing ~7 ms later.","source":"Fitted with tools/fit_reference.py","decayJitter":0.08,"stab":0.3,"down":{"level":1.0,"events":[{"type":"spike","t":0,"width":0.1,"gain":[9.0715,0.25],"lp":12500.0,"hp":8000.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0055,0.2],"decay":3.09},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0024,0.2],"decay":3.09},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0039,0.2],"decay":3.09},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.0032,0.2],"decay":3.09},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.0001,0.2],"decay":2.06},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.0072,0.2],"decay":0.87},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.0242,0.2],"decay":0.53},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.0508,0.2],"decay":0.5},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.0613,0.2],"decay":0.61},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[0.248,0.2],"decay":0.94},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.1296,0.2],"decay":1.39},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.0452,0.2],"decay":1.59},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.0441,0.2],"decay":1.62},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0048,0.2],"decay":2.11},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.0001,0.2],"decay":2.37},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.0127,0.2],"decay":1.54},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[1.0,0.2],"decay":1.11},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.1089,0.2],"decay":1.2},{"type":"burst","t":[7,0.15],"bp":250,"q":4.32,"gain":[0.0028,0.2],"decay":3.09},{"type":"burst","t":[7,0.15],"bp":315,"q":4.32,"gain":[0.0012,0.2],"decay":3.09},{"type":"burst","t":[7,0.15],"bp":400,"q":4.32,"gain":[0.0019,0.2],"decay":3.09},{"type":"burst","t":[7,0.15],"bp":500,"q":4.32,"gain":[0.0016,0.2],"decay":3.09},{"type":"burst","t":[7,0.15],"bp":630,"q":4.32,"gain":[0.0,0.2],"decay":2.06},{"type":"burst","t":[7,0.15],"bp":800,"q":4.32,"gain":[0.0036,0.2],"decay":0.87},{"type":"burst","t":[7,0.15],"bp":1000,"q":4.32,"gain":[0.0121,0.2],"decay":0.53},{"type":"burst","t":[7,0.15],"bp":1250,"q":4.32,"gain":[0.0254,0.2],"decay":0.5},{"type":"burst","t":[7,0.15],"bp":1600,"q":4.32,"gain":[0.0306,0.2],"decay":0.61},{"type":"burst","t":[7,0.15],"bp":2000,"q":4.32,"gain":[0.124,0.2],"decay":0.94},{"type":"burst","t":[7,0.15],"bp":2500,"q":4.32,"gain":[0.0648,0.2],"decay":1.39},{"type":"burst","t":[7,0.15],"bp":3150,"q":4.32,"gain":[0.0226,0.2],"decay":1.59}]},"up":{"level":0.388,"events":[{"type":"spike","t":0,"width":0.1,"gain":[0.6815,0.25],"lp":12500.0,"hp":1600.0,"order":2},{"type":"burst","t":0,"bp":250,"q":4.32,"gain":[0.0067,0.2],"decay":4.4},{"type":"burst","t":0,"bp":315,"q":4.32,"gain":[0.0254,0.2],"decay":4.4},{"type":"burst","t":0,"bp":400,"q":4.32,"gain":[0.0057,0.2],"decay":4.4},{"type":"burst","t":0,"bp":500,"q":4.32,"gain":[0.004,0.2],"decay":4.4},{"type":"burst","t":0,"bp":630,"q":4.32,"gain":[0.0051,0.2],"decay":4.4},{"type":"burst","t":0,"bp":800,"q":4.32,"gain":[0.0167,0.2],"decay":4.3},{"type":"burst","t":0,"bp":1000,"q":4.32,"gain":[0.0585,0.2],"decay":4.02},{"type":"burst","t":0,"bp":1250,"q":4.32,"gain":[0.0431,0.2],"decay":3.54},{"type":"burst","t":0,"bp":1600,"q":4.32,"gain":[0.2945,0.2],"decay":2.65},{"type":"burst","t":0,"bp":2000,"q":4.32,"gain":[0.3946,0.2],"decay":1.9},{"type":"burst","t":0,"bp":2500,"q":4.32,"gain":[0.4433,0.2],"decay":1.88},{"type":"burst","t":0,"bp":3150,"q":4.32,"gain":[0.2454,0.2],"decay":2.5},{"type":"burst","t":0,"bp":4000,"q":4.32,"gain":[0.0433,0.2],"decay":2.94},{"type":"burst","t":0,"bp":5000,"q":4.32,"gain":[0.0538,0.2],"decay":2.24},{"type":"burst","t":0,"bp":6300,"q":4.32,"gain":[0.2041,0.2],"decay":1.47},{"type":"burst","t":0,"bp":8000,"q":4.32,"gain":[0.4493,0.2],"decay":1.17},{"type":"burst","t":0,"bp":10000,"q":4.32,"gain":[1.0,0.2],"decay":1.0},{"type":"burst","t":0,"bp":12500,"q":4.32,"gain":[0.6196,0.2],"decay":0.88}]},"drive":1.9},"tactile":{"about":"Holy Panda / brown style: a faint scratch-tick as the leg passes the bump, then a full, rounded bottom-out; the bump ticks again on release.","room":{"t60":95,"damp":0.6,"mix":0.1,"size":0.9},"stab":0.25,"down":{"level":0.601,"events":[{"type":"noise","t":0,"bp":2200,"q":0.9,"gain":0.12,"attack":0.8,"decay":3,"fixed":true},{"type":"impact","t":0,"width":0.2,"gain":0.2,"fixed":true,"modes":[[[2600,0.06],2,1.0]]},{"type":"impact","t":[7,0.25],"width":0.4,"gain":1,"modes":[[[420,0.04],13,0.7],[[850,0.04],10,1.0],[[1450,0.05],6.5,0.7],[[2300,0.05],4,0.4]]},{"type":"noise","t":[7,0.25],"lp":1600,"hp":100,"gain":0.25,"attack":0.3,"decay":4}]},"up":{"level":0.368,"events":[{"type":"noise","t":0,"bp":2000,"q":0.9,"gain":0.1,"attack":0.5,"decay":3,"fixed":true},{"type":"impact","t":[5,0.3],"width":0.35,"gain":1,"modes":[[[700,0.04],7,1],[[1300,0.05],5,0.6],[[2100,0.05],3,0.3]]}]}},"linear":{"about":"Stock red-style linears on a steel plate: light, quick mid-high clack with a faint plate ring, and an audible top-out.","room":{"t60":100,"damp":0.45,"mix":0.1,"size":1.0},"stab":0.3,"down":{"level":0.554,"events":[{"type":"impact","t":1,"width":0.24,"gain":1,"modes":[[[650,0.04],9,0.6],[[1350,0.04],8,1.0],[[2350,0.05],5,0.75],[[3500,0.05],3,0.45]]},{"type":"impact","t":1,"width":0.1,"gain":0.12,"fixed":true,"modes":[[[3300,0.02],25,1.0],[[4100,0.02],15,0.4]]},{"type":"noise","t":1,"bp":3000,"q":0.8,"gain":0.18,"attack":0.1,"decay":2}]},"up":{"level":0.381,"events":[{"type":"impact","t":0,"width":0.22,"gain":1,"modes":[[[900,0.05],6,1.0],[[1700,0.05],5,0.7],[[2800,0.05],3,0.35]]},{"type":"impact","t":0,"width":0.1,"gain":0.06,"fixed":true,"modes":[[[3300,0.02],30,1.0]]}]}},"spring":{"about":"Buckling spring (1980s IBM style): loud buckle click, the hammer landing on a heavy steel backplate, and the spring ringing inside the barrel. The release is nearly as loud.","room":{"t60":160,"damp":0.5,"mix":0.16,"size":1.1},"stab":0.35,"down":{"level":0.604,"maxLength":600,"events":[{"type":"impact","t":0,"width":0.07,"gain":1,"fixed":true,"modes":[[[2400,0.04],4,1.0],[[3700,0.04],3,0.8],[[5100,0.04],2.5,0.5]]},{"type":"noise","t":0,"bp":3500,"q":1,"gain":0.3,"attack":0.05,"decay":2,"fixed":true},{"type":"impact","t":[2.5,0.2],"width":0.3,"gain":0.9,"modes":[[[420,0.04],18,0.6],[[900,0.04],13,1.0],[[1650,0.05],9,0.75],[[2500,0.05],6,0.45]]},{"type":"impact","t":0,"width":0.07,"gain":0.12,"fixed":true,"modes":[[[3550,0.03],60,1.0],[[4450,0.03],45,0.7],[[2950,0.03],40,0.5]]},{"type":"impact","t":2.5,"width":0.1,"gain":0.06,"fixed":true,"modes":[[[2750,0.02],50,1.0]]}]},"up":{"level":0.513,"maxLength":600,"events":[{"type":"impact","t":0,"width":0.08,"gain":0.8,"fixed":true,"modes":[[[2600,0.04],2.5,1.0],[[4000,0.04],2,0.7]]},{"type":"impact","t":[3,0.3],"width":0.25,"gain":1,"modes":[[[620,0.04],12,1.0],[[1300,0.05],8,0.7],[[2100,0.05],5,0.4]]},{"type":"impact","t":0,"width":0.07,"gain":0.11,"fixed":true,"modes":[[[3550,0.03],65,1.0],[[4450,0.03],50,0.7]]}]}},"typewriter":{"about":"Manual typewriter: key lever, then the typebar strikes the rubber platen ~16 ms later, then the escapement ticks the carriage along. Return rings the bell and zips the carriage back.","room":{"t60":220,"damp":0.55,"mix":0.2,"size":1.2},"jitter":0.03,"down":{"level":0.601,"maxLength":600,"events":[{"type":"impact","t":0,"width":0.5,"gain":0.25,"modes":[[[420,0.05],8,1.0],[[900,0.05],5,0.5]]},{"type":"impact","t":16,"width":0.1,"gain":1,"fixed":true,"modes":[[[1100,0.05],10,1.0],[[2250,0.05],8,0.8],[[3600,0.05],5,0.6],[[5400,0.05],3,0.35]]},{"type":"impact","t":16,"width":0.1,"gain":0.08,"fixed":true,"modes":[[[2700,0.03],45,1.0],[[4150,0.03],30,0.6]]},{"type":"noise","t":16,"lp":800,"hp":80,"gain":0.25,"attack":0.2,"decay":7,"fixed":true},{"type":"impact","t":16,"width":0.4,"gain":0.35,"fixed":true,"modes":[[[190,0.04],20,1.0],[[430,0.04],12,0.6]]},{"type":"impact","t":[27,0.1],"width":0.05,"gain":0.35,"fixed":true,"modes":[[[4300,0.04],1.5,1.0],[[6200,0.04],1.2,0.6]]}]},"space":{"level":0.541,"maxLength":500,"events":[{"type":"impact","t":0,"width":0.5,"gain":0.6,"modes":[[[260,0.05],18,1.0],[[540,0.05],10,0.6]]},{"type":"noise","t":0,"lp":900,"gain":0.3,"attack":0.3,"decay":6},{"type":"impact","t":[14,0.1],"width":0.05,"gain":0.5,"modes":[[[4300,0.04],1.5,1.0],[[6200,0.04],1.2,0.6]]}]},"enter":{"level":0.57,"maxLength":1300,"events":[{"type":"impact","t":0,"width":0.08,"gain":0.5,"modes":[[[2350,0.005],380,1.0],[[5900,0.005],160,0.35],[[9200,0.005],70,0.12]]},{"type":"noise","t":140,"bp":1800,"q":0.7,"gain":0.15,"attack":30,"decay":120},{"type":"impact","t":140,"width":0.06,"gain":0.45,"modes":[[[3600,0.06],1.5,1.0],[[5200,0.06],1.2,0.6]]},{"type":"impact","t":154,"width":0.06,"gain":0.45,"modes":[[[3600,0.06],1.5,1.0],[[5200,0.06],1.2,0.6]]},{"type":"impact","t":168,"width":0.06,"gain":0.45,"modes":[[[3600,0.06],1.5,1.0],[[5200,0.06],1.2,0.6]]},{"type":"impact","t":182,"width":0.06,"gain":0.45,"modes":[[[3600,0.06],1.5,1.0],[[5200,0.06],1.2,0.6]]},{"type":"impact","t":196,"width":0.06,"gain":0.45,"modes":[[[3600,0.06],1.5,1.0],[[5200,0.06],1.2,0.6]]},{"type":"impact","t":210,"width":0.06,"gain":0.45,"modes":[[[3600,0.06],1.5,1.0],[[5200,0.06],1.2,0.6]]},{"type":"impact","t":[330,0.03],"width":0.4,"gain":1,"modes":[[[160,0.04],35,1.0],[[380,0.04],20,0.7],[[820,0.05],10,0.4],[[1600,0.05],6,0.25]]},{"type":"noise","t":330,"lp":1200,"gain":0.3,"attack":0.3,"decay":10}]},"backspace":{"level":0.511,"events":[{"type":"impact","t":0,"width":0.3,"gain":1,"modes":[[[300,0.05],18,1.0],[[700,0.05],10,0.6]]},{"type":"impact","t":[6,0.1],"width":0.05,"gain":0.4,"modes":[[[4300,0.04],1.5,1.0],[[6200,0.04],1.2,0.6]]}]},"modifier":{"level":0.42,"events":[{"type":"impact","t":0,"width":0.5,"gain":1,"modes":[[[230,0.05],22,1.0],[[520,0.05],12,0.6],[[1100,0.05],6,0.3]]}]},"up":{"level":0.18,"events":[{"type":"impact","t":0,"width":0.5,"gain":1,"modes":[[[520,0.05],7,1.0],[[1100,0.05],4,0.4]]}]}},"soft":{"about":"Laptop scissor keys: a short, light plastic tap with almost no low end.","room":{"t60":50,"damp":0.8,"mix":0.05,"size":0.7},"down":{"level":0.318,"events":[{"type":"impact","t":0,"width":0.3,"gain":1,"modes":[[[900,0.05],4,0.6],[[1700,0.05],3.5,1.0],[[2800,0.06],2.5,0.7],[[4200,0.06],1.5,0.35]]},{"type":"noise","t":0,"lp":600,"hp":100,"gain":0.15,"attack":0.3,"decay":3}]},"up":{"level":0.119,"events":[{"type":"impact","t":0,"width":0.3,"gain":1,"modes":[[[1300,0.05],2.5,1.0],[[2400,0.05],2,0.6]]}]}},"raindrops":{"about":"A drop hitting water: a tiny splash, then the trapped air bubble rings with a rising 'plink'. Sometimes a smaller droplet follows.","room":{"t60":200,"damp":0.6,"mix":0.12,"size":1.2},"jitter":0.0,"down":{"level":0.355,"events":[{"type":"noise","t":0,"bp":[5500,0.2],"q":1,"gain":0.08,"attack":0.1,"decay":2},{"type":"tone","t":[1.5,0.3],"freq":{"range":[650,1500]},"gain":1,"attack":0.8,"decay":[9,0.3],"sweep":[1.7,0.15],"sweepTime":[5,0.3]},{"type":"tone","chance":0.3,"t":{"range":[40,110]},"freq":{"range":[1300,2200]},"gain":0.35,"attack":0.6,"decay":6,"sweep":1.5,"sweepTime":4}]},"space":{"level":0.414,"events":[{"type":"noise","t":0,"lp":1500,"hp":200,"gain":0.15,"attack":1,"decay":10},{"type":"tone","t":1,"freq":{"range":[420,620]},"gain":1,"attack":1.5,"decay":18,"sweep":1.8,"sweepTime":8},{"type":"tone","chance":0.6,"t":{"range":[60,140]},"freq":{"range":[1300,2200]},"gain":0.3,"attack":0.6,"decay":6,"sweep":1.5,"sweepTime":4}]},"enter":{"level":0.384,"events":[{"type":"noise","t":0,"bp":5000,"q":1,"gain":0.08,"attack":0.1,"decay":2},{"type":"tone","t":1,"freq":{"range":[600,900]},"gain":1,"attack":1,"decay":13,"sweep":1.7,"sweepTime":6},{"type":"tone","t":{"range":[60,90]},"freq":{"range":[1000,1500]},"gain":0.7,"attack":0.8,"decay":10,"sweep":1.6,"sweepTime":5}]}},"bubbles":{"about":"Cartoon bubbles: a rounded upward 'bloop' on a pentatonic note, sometimes ending in a tiny pop.","room":{"t60":150,"damp":0.6,"mix":0.12,"size":1.0},"jitter":0.0,"down":{"level":0.205,"events":[{"type":"tone","t":0,"fixed":true,"freq":{"choice":[523.25,587.33,659.25,783.99,880.0,1046.5]},"gain":1,"attack":4,"decay":28,"sweep":1.45,"sweepTime":18,"harmonics":[[2,0.15],[3,0.05]]},{"type":"noise","chance":0.5,"t":{"range":[28,40]},"bp":3000,"q":1.5,"gain":0.12,"attack":0.1,"decay":1.2,"fixed":true}]},"space":{"level":0.224,"events":[{"type":"tone","t":0,"freq":{"choice":[261.63,293.66,329.63,392.0]},"gain":1,"attack":5,"decay":40,"sweep":1.5,"sweepTime":22,"harmonics":[[2,0.2],[3,0.06]]}]},"enter":{"level":0.224,"events":[{"type":"tone","t":0,"freq":{"choice":[523.25,587.33,659.25]},"gain":1,"attack":4,"decay":28,"sweep":1.45,"sweepTime":18,"harmonics":[[2,0.15]]},{"type":"tone","t":70,"freq":{"choice":[783.99,880.0,1046.5]},"gain":0.9,"attack":4,"decay":28,"sweep":1.45,"sweepTime":18,"harmonics":[[2,0.15]]}]}},"wood":{"about":"A small hollow wood block struck with a hard mallet: strong fundamental, quickly-damped inharmonic overtones.","room":{"t60":140,"damp":0.55,"mix":0.12,"size":1.0},"down":{"level":0.379,"events":[{"type":"impact","t":0,"width":[0.22,0.2],"gain":1,"modes":[[[820,0.03],20,1.0],[[1960,0.04],8,0.45],[[3150,0.04],4,0.25],[[4600,0.05],2,0.12]]},{"type":"noise","t":0,"bp":2500,"q":0.8,"gain":0.12,"attack":0.1,"decay":1.5}]}}}};
+
+// Thocky spectrum per 1/3-octave band (dB re. loudest band): recording vs Keytone.
+const SPECTRUM = {
+  bands: [250, 315, 400, 500, 630, 800, 1000, 1250, 1600, 2000, 2500, 3150, 4000, 5000, 6300, 8000, 10000, 12500],
+  recorded: [-31.7, -29.5, -24.3, -23.1, -11.9, -6.3, -3.6, -4.7, -2.7, 0.0, -2.3, -11.5, -16.5, -19.2, -23.4, -28.6, -29.4, -31.4],
+  keytone: [-30.6, -28.9, -25.2, -20.2, -11.5, -5.7, -3.4, -3.7, -2.5, 0.0, -3.4, -9.8, -15.7, -17.3, -23.8, -29.5, -29.1, -30.9],
+};
+
+const PROFILES = [
+  { id: "thock", name: "Thocky", tint: "#5C4F47", tag: "Rounded, hollow and muted: a dense mid-range thock with the treble rolled off.",
+    icon: '<path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/>' },
+  { id: "creamy", name: "Creamy", tint: "#CC9E6E", tag: "Smooth and buttery, with a soft edge and almost no treble.",
+    icon: '<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16M8 3.5c0 1.5 1.5 1.5 1.5 3M11.5 3.5c0 1.5 1.5 1.5 1.5 3"/>' },
+  { id: "poppy", name: "Poppy", tint: "#F5A83D", tag: "A high, sharp pop with a bright snap and a very quick decay.",
+    icon: '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5" fill="currentColor"/>' },
+  { id: "clacky", name: "Clacky", tint: "#6B99C2", tag: "Bright, wide clack of hard keycaps on a stiff plate.",
+    icon: '<circle cx="8" cy="8" r="3" fill="currentColor"/><circle cx="16" cy="8" r="3" fill="currentColor"/><circle cx="8" cy="16" r="3" fill="currentColor"/><circle cx="16" cy="16" r="3" fill="currentColor"/>' },
+  { id: "clicky", name: "Clicky", tint: "#4575DB", tag: "Crisp, high click-jacket snap, then the landing a few ms later.",
+    icon: '<path d="M9 9l10 4-4.5 1.5L13 19z"/><path d="M5 3.5l1.5 2M3 8h2.5M9 2v2.5"/>' },
+  { id: "tactile", name: "Tactile", tint: "#99694A", tag: "A soft tick over the bump, then a full, rounded landing.",
+    icon: '<path d="M3 17h18"/><path d="M5 17c2-0.2 3-6 7-6s5 5.8 7 6"/><path d="M12 3v4M10 5.5l2 2 2-2"/>' },
+  { id: "linear", name: "Linear", tint: "#DB5C5C", tag: "Light, quick clack with a faint steel-plate ring, like red switches.",
+    icon: '<path d="M12 4v11M7.5 10.5L12 15l4.5-4.5M5 20h14"/>' },
+  { id: "spring", name: "Spring", tint: "#707885", tag: "Vintage buckling spring: loud buckle, heavy plate, ringing spring.",
+    icon: '<path d="M7 4h10M7 20h10M8 4l8 3-8 3 8 3-8 3 8 4"/>' },
+  { id: "soft", name: "Soft", tint: "#9E94D1", tag: "A light, quiet tap, like a laptop keyboard.",
+    icon: '<path d="M7 18a4 4 0 0 1-.5-8A5.5 5.5 0 0 1 17 8.5a4.5 4.5 0 0 1 .5 9.5z"/>' },
+  { id: "typewriter", name: "Typewriter", tint: "#38383D", tag: "Typebar strikes, escapement ticks, and a bell and carriage on return.",
+    icon: '<rect x="4" y="11" width="16" height="9" rx="2"/><path d="M7 11V4h10v7M8 15h.01M12 15h.01M16 15h.01M9 18h6"/>' },
+  { id: "raindrops", name: "Raindrops", tint: "#4D9EDB", tag: "Drops plinking into a still pond.",
+    icon: '<path d="M12 3c3.5 4.5 6 8 6 11a6 6 0 0 1-12 0c0-3 2.5-6.5 6-11z"/>' },
+  { id: "bubbles", name: "Bubbles", tint: "#EB80AB", tag: "Playful bloops on a pentatonic scale.",
+    icon: '<circle cx="9" cy="14" r="5"/><circle cx="17" cy="7" r="3"/><circle cx="18" cy="16" r="1.8"/>' },
+  { id: "wood", name: "Wooden", tint: "#8C6E4A", tag: "Hard knocks on a small hollow wood block.",
+    icon: '<path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14z"/><path d="M5 19l8-8"/>' },
+];
+const KEYBOARDS = ["thock", "creamy", "poppy", "clacky", "clicky", "tactile", "linear", "spring", "soft"];
+const AMBIENT = ["typewriter", "raindrops", "bubbles", "wood"];
+
+/* ---------------------------------------------------------------- synth
+   A line-for-line port of the app's Synth.swift. */
+const SR = 44100;
+const NYQ = SR / 2;
+
+class Rng {
+  constructor(seed) { this.s = (seed >>> 0) || 0x9e3779b9; }
+  next() {
+    let t = (this.s += 0x6d2b79f5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  }
+  range(a, b) { return a + (b - a) * this.next(); }
+}
+
+function P(v, r) {
+  if (v === undefined || v === null) return null;
+  if (typeof v === "number") return v;
+  if (Array.isArray(v)) return v[0] * (1 + r.range(-v[1], v[1]));
+  if (v.range) return r.range(v.range[0], v.range[1]);
+  if (v.choice) return v.choice[Math.floor(r.next() * v.choice.length)];
+  return null;
+}
+
+function biquad(kind, f, q = 0.707) {
+  const w0 = 2 * Math.PI * Math.min(Math.max(f, 10), SR * 0.45) / SR;
+  const c = Math.cos(w0), al = Math.sin(w0) / (2 * q), a0 = 1 + al;
+  const b = kind === "lp" ? [(1 - c) / 2, 1 - c, (1 - c) / 2]
+          : kind === "hp" ? [(1 + c) / 2, -(1 + c), (1 + c) / 2]
+          : [al, 0, -al];
+  return { b0: b[0] / a0, b1: b[1] / a0, b2: b[2] / a0, a1: -2 * c / a0, a2: (1 - al) / a0, x1: 0, x2: 0, y1: 0, y2: 0 };
+}
+function proc(f, x) {
+  const y = f.b0 * x + f.b1 * f.x1 + f.b2 * f.x2 - f.a1 * f.y1 - f.a2 * f.y2;
+  f.x2 = f.x1; f.x1 = x; f.y2 = f.y1; f.y1 = y;
+  return y;
+}
+function env(t, att, dec) {
+  const a = Math.max(att, 1e-6);
+  return t < a ? t / a : Math.exp(-(t - a) / Math.max(dec, 1e-6));
+}
+
+function render(id, kind, up, r) {
+  const prof = RECIPES.profiles[id], ks = RECIPES.kinds[kind];
+  let spec, override = false;
+  if (up) { spec = prof.up; if (!spec) return null; }
+  else if (kind !== "standard" && prof[kind]) { spec = prof[kind]; override = true; }
+  else spec = prof.down;
+
+  const pitch = (override ? 1 : ks.pitch) * (1 + r.range(-1, 1) * (prof.jitter ?? 0.04));
+  const decay = (override ? 1 : ks.decay) * (1 + r.range(-1, 1) * (prof.decayJitter ?? 0.1));
+  const fj = prof.freqJitter ?? 0.02, mj = prof.modeJitter ?? 0.25;
+  const events = spec.events.slice();
+  if (ks.stab && (prof.stab ?? 0) > 0) for (const e of RECIPES.stabilizer) events.push({ ...e, gain: prof.stab * (up ? 0.6 : 1) });
+
+  const n = Math.floor((spec.maxLength ?? 500) / 1000 * SR);
+  let out = new Float64Array(n);
+  let tail = 0;
+
+  for (const ev of events) {
+    if (ev.chance != null && r.next() > ev.chance) continue;
+    const fixed = !!ev.fixed, pm = fixed ? 1 : pitch, dm = fixed ? 1 : decay;
+    const t0 = (P(ev.t ?? 0, r) ?? 0) / 1000;
+    const start = Math.floor(t0 * SR);
+    if (start >= n) continue;
+
+    if (ev.type === "impact") {
+      const w = (P(ev.width ?? 0.3, r)) / 1000;
+      const pw = Math.max(1, Math.round(w * SR));
+      const pulse = new Float64Array(pw);
+      let sum = 0;
+      for (let k = 0; k < pw; k++) { pulse[k] = 0.5 - 0.5 * Math.cos(2 * Math.PI * (k + 0.5) / pw); sum += pulse[k]; }
+      const g0 = P(ev.gain ?? 1, r) / sum;
+      for (let k = 0; k < pw; k++) pulse[k] *= g0;
+      for (const m of ev.modes || []) {
+        const f = P(m[0], r) * pm * (1 + r.range(-fj, fj));
+        const tau = P(m[1], r) * dm / 1000;
+        const g = P(m[2], r) * (1 + r.range(-mj, mj));
+        if (f >= SR * 0.45) continue;
+        const th = 2 * Math.PI * f / SR, rr = Math.exp(-1 / (tau * SR));
+        const b0 = g * Math.sin(th), a1 = 2 * rr * Math.cos(th), a2 = rr * rr;
+        let y1 = 0, y2 = 0;
+        const end = Math.min(n, start + pw + Math.floor(10 * tau * SR));
+        for (let i = start; i < end; i++) {
+          const k = i - start, x = k < pw ? pulse[k] : 0;
+          const y = b0 * x + a1 * y1 - a2 * y2;
+          y2 = y1; y1 = y; out[i] += y;
+        }
+        tail = Math.max(tail, t0 + w + 7 * tau);
+      }
+    } else if (ev.type === "noise") {
+      const gain = P(ev.gain ?? 1, r), att = P(ev.attack ?? 0.2, r) / 1000, dec = P(ev.decay ?? 5, r) * dm / 1000;
+      const lp = P(ev.lp, r), hp = P(ev.hp, r), bp = P(ev.bp, r);
+      const filters = [];
+      let bw;
+      if (bp != null) {
+        const f = bp * pm, q = P(ev.q ?? 0.707, r);
+        filters.push(biquad("bp", f, q)); bw = f / q;
+      } else {
+        const l = lp != null ? lp * pm : null, h = hp != null ? hp * pm : null;
+        if (l != null) filters.push(biquad("lp", l));
+        if (h != null) filters.push(biquad("hp", h));
+        bw = (l ?? NYQ) - (h ?? 0);
+      }
+      const comp = Math.min(Math.sqrt(NYQ / Math.max(bw, 50)), 10);
+      const end = Math.min(n, start + Math.floor((att + 10 * dec) * SR));
+      for (let i = start; i < end; i++) {
+        let x = r.range(-1, 1);
+        for (const f of filters) x = proc(f, x);
+        out[i] += gain * comp * env((i - start) / SR, att, dec) * x;
+      }
+      tail = Math.max(tail, t0 + att + 7 * dec);
+    } else if (ev.type === "burst") {
+      const gain = P(ev.gain ?? 1, r), att = P(ev.attack ?? 0.15, r) / 1000, dec = P(ev.decay ?? 3, r) * dm / 1000;
+      const f = P(ev.bp ?? 1000, r) * pm, q = P(ev.q ?? 4.32, r), order = Math.max(1, ev.order ?? 2);
+      const filters = Array.from({ length: order }, () => biquad("bp", f, q));
+      const comp = Math.min(Math.sqrt(NYQ / Math.max(f / q / order, 25)), 20);
+      const ring = 10 * q / (Math.PI * f);
+      const end = Math.min(n, start + Math.floor((att + 10 * dec + ring) * SR));
+      for (let i = start; i < end; i++) {
+        let x = r.range(-1, 1) * env((i - start) / SR, att, dec);
+        for (const fl of filters) x = proc(fl, x);
+        out[i] += gain * comp * x;
+      }
+      tail = Math.max(tail, t0 + att + 7 * dec + 7 * q / (Math.PI * f));
+    } else if (ev.type === "spike") {
+      const pw = Math.max(1, Math.round(P(ev.width ?? 0.1, r) / 1000 * SR));
+      const gain = P(ev.gain ?? 1, r);
+      const filters = [];
+      for (let o = 0; o < Math.max(1, ev.order ?? 1); o++) {
+        if (ev.lp != null) filters.push(biquad("lp", P(ev.lp, r) * pm));
+        if (ev.hp != null) filters.push(biquad("hp", P(ev.hp, r) * pm));
+      }
+      const end = Math.min(n, start + pw + Math.floor(0.03 * SR));
+      for (let i = start; i < end; i++) {
+        const k = i - start;
+        let x = k < pw ? gain * (0.5 - 0.5 * Math.cos(2 * Math.PI * (k + 0.5) / pw)) : 0;
+        for (const fl of filters) x = proc(fl, x);
+        out[i] += x;
+      }
+      tail = Math.max(tail, t0 + 0.003);
+    } else if (ev.type === "tone") {
+      const f0 = (P(ev.freq ?? 440, r)) * pm, gain = P(ev.gain ?? 1, r);
+      const att = P(ev.attack ?? 0.5, r) / 1000, dec = P(ev.decay ?? 20, r) * dm / 1000;
+      const sweep = P(ev.sweep ?? 1, r), st = Math.max(P(ev.sweepTime ?? 10, r) / 1000, 1e-4);
+      const harm = ev.harmonics || [];
+      let phase = 0;
+      const end = Math.min(n, start + Math.floor((att + 10 * dec) * SR));
+      for (let i = start; i < end; i++) {
+        const t = (i - start) / SR;
+        phase += 2 * Math.PI * f0 * (1 + (sweep - 1) * (1 - Math.exp(-t / st))) / SR;
+        let s = Math.sin(phase);
+        for (const h of harm) s += h[1] * Math.sin(phase * h[0]);
+        out[i] += gain * env(t, att, dec) * s;
+      }
+      tail = Math.max(tail, t0 + att + 7 * dec);
+    }
+  }
+
+  if (prof.room) tail += prof.room.t60 / 1000 * 0.7;
+  const n2 = Math.max(Math.min(n, Math.floor((tail + 0.005) * SR)), 64);
+  out = out.subarray(0, n2);
+  if (prof.room) applyRoom(out, prof.room);
+  const fade = Math.min(Math.floor(0.03 * SR), Math.floor(n2 / 4));
+  for (let k = 0; k < fade; k++) out[n2 - fade + k] *= 1 - k / fade;
+
+  let peak = 0;
+  for (let i = 0; i < n2; i++) peak = Math.max(peak, Math.abs(out[i]));
+  const res = new Float32Array(n2);
+  if (peak <= 0) return res;
+  const level = Math.min(spec.level * ks.level, 1), drive = prof.drive ?? 1.3;
+  const g = 0.9 * level / Math.tanh(drive);
+  for (let i = 0; i < n2; i++) res[i] = g * Math.tanh(out[i] / peak * drive);
+  return res;
+}
+
+function applyRoom(x, room) {
+  const size = room.size ?? 1, damp = room.damp, t60 = room.t60 / 1000;
+  const wet = new Float64Array(x.length);
+  for (const ms of [11.73, 13.13, 15.37, 16.97]) {
+    const d = Math.max(1, Math.floor(ms * size / 1000 * SR));
+    const fb = Math.pow(10, -3 * (d / SR) / t60);
+    const buf = new Float64Array(d);
+    let store = 0, idx = 0;
+    for (let i = 0; i < x.length; i++) {
+      const o = buf[idx];
+      store = o * (1 - damp) + store * damp;
+      buf[idx] = x[i] + store * fb;
+      if (++idx === d) idx = 0;
+      wet[i] += o;
+    }
+  }
+  for (let i = 0; i < wet.length; i++) wet[i] /= 4;
+  for (const ms of [5.0, 1.7]) {
+    const d = Math.max(1, Math.floor(ms * size / 1000 * SR));
+    const buf = new Float64Array(d);
+    let idx = 0;
+    for (let i = 0; i < wet.length; i++) {
+      const v = wet[i], bo = buf[idx];
+      wet[i] = -v + bo; buf[idx] = v + bo * 0.5;
+      if (++idx === d) idx = 0;
+    }
+  }
+  for (let i = 0; i < x.length; i++) x[i] += room.mix * wet[i];
+}
+
+/* ---------------------------------------------------------------- audio */
+const state = { profile: "thock", enabled: true, release: true, stereo: true, volume: 0.7 };
+let ctx = null, master = null;
+const banks = new Map();
+const lastTake = new Map();
+const rng = new Rng(Date.now());
+const TAKES = 8;
+
+function ensureAudio() {
+  if (!ctx) {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return null;
+    ctx = new AC();
+    master = ctx.createGain();
+    master.gain.value = state.volume;
+    master.connect(ctx.destination);
+  }
+  if (ctx.state === "suspended") ctx.resume();
+  return ctx;
+}
+
+function takes(id, kind, up) {
+  const key = `${id}|${kind}|${up}`;
+  if (!banks.has(key)) {
+    const list = [];
+    for (let i = 0; i < TAKES; i++) {
+      const s = render(id, kind, up, rng);
+      if (!s) break;
+      const b = ctx.createBuffer(1, s.length, SR);
+      b.copyToChannel(s, 0);
+      list.push(b);
+    }
+    banks.set(key, list);
+  }
+  return banks.get(key);
+}
+
+function play(kind, up, pan) {
+  if (!state.enabled || (up && !state.release)) return;
+  if (!ensureAudio()) return;
+  const list = takes(state.profile, kind, up);
+  if (!list.length) return;
+  const key = `${kind}|${up}`;
+  let i = Math.floor(Math.random() * list.length);
+  if (list.length > 1 && i === lastTake.get(key)) i = (i + 1) % list.length;
+  lastTake.set(key, i);
+  const src = ctx.createBufferSource();
+  src.buffer = list[i];
+  if (ctx.createStereoPanner) {
+    const p = ctx.createStereoPanner();
+    p.pan.value = state.stereo ? pan : 0;
+    src.connect(p).connect(master);
+  } else src.connect(master);
+  src.start();
+}
+
+// Approximate horizontal position of each key (same layout the app uses).
+const POS = (() => {
+  const rows = [
+    ["Escape", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"],
+    ["Backquote", "Digit1", "Digit2", "Digit3", "Digit4", "Digit5", "Digit6", "Digit7", "Digit8", "Digit9", "Digit0", "Minus", "Equal", "Backspace"],
+    ["Tab", "KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU", "KeyI", "KeyO", "KeyP", "BracketLeft", "BracketRight", "Backslash"],
+    ["CapsLock", "KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "Semicolon", "Quote", "Enter"],
+    ["ShiftLeft", "KeyZ", "KeyX", "KeyC", "KeyV", "KeyB", "KeyN", "KeyM", "Comma", "Period", "Slash", "ShiftRight"],
+    ["Fn", "ControlLeft", "AltLeft", "MetaLeft", "Space", "MetaRight", "AltRight", "ArrowLeft", "ArrowDown", "ArrowRight"],
+  ];
+  const map = {};
+  rows.forEach((row, ri) => row.forEach((k, i) => { map[k] = { x: i / (row.length - 1), y: ri / 5 }; }));
+  map.Space = { x: 0.5, y: 1 };
+  map.ArrowUp = { x: map.ArrowDown.x, y: 0.85 };
+  return map;
+})();
+const panFor = (code) => ((POS[code]?.x ?? 0.5) * 2 - 1) * 0.55;
+
+function kindFor(code) {
+  if (code === "Space") return "space";
+  if (code === "Enter" || code === "NumpadEnter") return "enter";
+  if (code === "Backspace" || code === "Delete") return "backspace";
+  if (/^(Shift|Control|Alt|Meta)/.test(code) || code === "CapsLock" || code === "Fn") return "modifier";
+  return "standard";
+}
+
+const isField = (el) => el && (el.tagName === "INPUT" && el.type !== "checkbox" && el.type !== "range" || el.tagName === "TEXTAREA" || el.isContentEditable);
+const isControl = (el) => el && /^(BUTTON|A|INPUT|SUMMARY|SELECT|TEXTAREA)$/.test(el.tagName);
+
+let stageVisible = true;
+window.addEventListener("keydown", (e) => {
+  if (e.repeat) return;
+  // While the demo is on screen, the space bar types a sound instead of scrolling the page.
+  if (e.code === "Space" && stageVisible && !isField(e.target) && !isControl(e.target)) e.preventDefault();
+  const kind = kindFor(e.code);
+  play(kind, false, panFor(e.code));
+  ripple(e.code, kind);
+});
+window.addEventListener("keyup", (e) => {
+  if (e.code === "CapsLock") return;
+  play(kindFor(e.code), true, panFor(e.code));
+});
+
+/* ---------------------------------------------------------------- panel UI */
+const byId = (id) => document.getElementById(id);
+const profileById = Object.fromEntries(PROFILES.map((p) => [p.id, p]));
+const svgIcon = (inner) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${inner}</svg>`;
+
+function buildTiles(ids, el) {
+  el.innerHTML = ids.map((id) => {
+    const p = profileById[id];
+    return `<button class="tile" type="button" data-id="${id}" style="--tint:${p.tint}" aria-pressed="false" title="${p.tag}">${svgIcon(p.icon)}<span>${p.name}</span></button>`;
+  }).join("");
+}
+buildTiles(KEYBOARDS, byId("tiles-k"));
+buildTiles(AMBIENT, byId("tiles-a"));
+
+function showProfile() {
+  const p = profileById[state.profile];
+  document.querySelectorAll(".tile").forEach((t) => t.setAttribute("aria-pressed", String(t.dataset.id === state.profile)));
+  byId("p-tag").textContent = p.tag;
+  byId("p-sub").textContent = state.enabled ? p.name : "Paused";
+}
+
+function flourish() {
+  if (!state.enabled) return;
+  [["standard", -0.3, 0], ["standard", 0.1, 110], ["standard", 0.35, 210], ["space", 0, 360]].forEach(([k, pan, at]) => {
+    setTimeout(() => { play(k, false, pan); setTimeout(() => play(k, true, pan), 65); ripplePan(pan, k); }, at);
+  });
+}
+
+// A mouse click shouldn't leave a tile or switch focused: the space bar would then press it
+// again instead of playing a key sound. Keyboard focus is unaffected.
+const panelEl = document.querySelector(".panel");
+panelEl.addEventListener("mousedown", (e) => {
+  if (e.target.closest(".tile")) e.preventDefault();
+});
+panelEl.addEventListener("click", (e) => {
+  if (e.detail > 0 && e.target.matches('input[type="checkbox"]')) e.target.blur();
+});
+byId("volume").addEventListener("pointerup", (e) => e.target.blur());
+
+document.querySelectorAll(".tile").forEach((t) => t.addEventListener("click", () => {
+  ensureAudio();
+  state.profile = t.dataset.id;
+  try { localStorage.setItem("keytone-profile", state.profile); } catch (_) {}
+  showProfile();
+  flourish();
+}));
+byId("enabled").addEventListener("change", (e) => {
+  state.enabled = e.target.checked;
+  byId("p-dim").classList.toggle("off", !state.enabled);
+  showProfile();
+});
+byId("release").addEventListener("change", (e) => { state.release = e.target.checked; });
+byId("stereo").addEventListener("change", (e) => { state.stereo = e.target.checked; });
+byId("volume").addEventListener("input", (e) => {
+  state.volume = Number(e.target.value);
+  if (master) master.gain.value = state.volume;
+});
+byId("volume").addEventListener("change", () => { ensureAudio(); flourish(); });
+try {
+  const saved = localStorage.getItem("keytone-profile");
+  if (saved && profileById[saved]) state.profile = saved;
+} catch (_) {}
+showProfile();
+
+document.querySelectorAll("[data-download]").forEach((a) => {
+  if (DOWNLOAD_URL && !DOWNLOAD_URL.startsWith("{{")) a.href = DOWNLOAD_URL;
+});
+
+/* ---------------------------------------------------------------- theme toggle */
+const root = document.documentElement;
+function currentTheme() {
+  return root.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+}
+byId("theme").addEventListener("click", () => {
+  root.dataset.theme = currentTheme() === "dark" ? "light" : "dark";
+  readColors();
+  if (reduced) drawDots(0);
+});
+
+/* ---------------------------------------------------------------- halftone field */
+const canvas = byId("dots"), g = canvas.getContext("2d"), stage = byId("stage");
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const ripples = [];
+let W = 0, H = 0, colors = [[123, 108, 255], [227, 91, 214], [255, 159, 107]], dotBg = "#f3f2f0";
+
+function hexToRgb(h) {
+  h = h.trim().replace("#", "");
+  return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+}
+function readColors() {
+  const cs = getComputedStyle(root);
+  colors = ["--g1", "--g2", "--g3"].map((v) => hexToRgb(cs.getPropertyValue(v)));
+}
+function mix(t) {
+  const [a, b, u] = t < 0.5 ? [colors[0], colors[1], t * 2] : [colors[1], colors[2], (t - 0.5) * 2];
+  return a.map((c, i) => Math.round(c + (b[i] - c) * u));
+}
+function resize() {
+  const r = stage.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
+  W = r.width; H = r.height;
+  canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+  g.setTransform(dpr, 0, 0, dpr, 0, 0);
+  if (reduced) drawDots(0);
+}
+function rippleAt(x, y, strength) {
+  if (reduced) return;
+  ripples.push({ x, y, t0: performance.now(), s: strength });
+  if (ripples.length > 24) ripples.shift();
+}
+function ripple(code, kind) {
+  const pos = POS[code] || { x: Math.random(), y: 0.5 };
+  rippleAt(pos.x * W, 40 + pos.y * (H - 80), kind === "space" ? 1.4 : kind === "standard" ? 1 : 1.15);
+}
+function ripplePan(pan, kind) { rippleAt((pan / 0.55 + 1) / 2 * W, kind === "space" ? H - 60 : H * 0.45, kind === "space" ? 1.4 : 1); }
+
+function drawDots(now) {
+  const step = W < 600 ? 10 : 12, t = now / 1000;
+  g.clearRect(0, 0, W, H);
+  const live = ripples.filter((r) => now - r.t0 < 1400);
+  ripples.length = 0; ripples.push(...live);
+  for (let y = step / 2; y < H; y += step) {
+    for (let x = step / 2; x < W; x += step) {
+      // A slow drifting field, a little denser towards the lower right.
+      let v = 0.5 + 0.5 * Math.sin(x * 0.011 + t * 0.35) * Math.cos(y * 0.016 - t * 0.27);
+      v = 0.18 + 0.5 * v * (0.55 + 0.45 * (x / W) * (y / H + 0.4));
+      for (const r of live) {
+        const age = (now - r.t0) / 1000, d = Math.hypot(x - r.x, y - r.y), front = age * 520;
+        v += r.s * 0.75 * Math.exp(-((d - front) ** 2) / 900) * Math.exp(-age * 2.2);
+      }
+      const rad = Math.min(step * 0.5, Math.max(0, v) * step * 0.48);
+      if (rad < 0.4) continue;
+      const [cr, cg, cb] = mix(Math.min(1, Math.max(0, x / W * 0.85 + y / H * 0.15)));
+      g.fillStyle = `rgba(${cr},${cg},${cb},${0.35 + Math.min(0.55, v * 0.6)})`;
+      g.beginPath(); g.arc(x, y, rad, 0, Math.PI * 2); g.fill();
+    }
+  }
+}
+let last = 0;
+function loop(now) {
+  if (stageVisible && now - last > 33) { drawDots(now); last = now; }
+  requestAnimationFrame(loop);
+}
+readColors();
+resize();
+new ResizeObserver(resize).observe(stage);
+if ("IntersectionObserver" in window) {
+  new IntersectionObserver((es) => { stageVisible = es[0].isIntersecting; }, { threshold: 0.05 }).observe(stage);
+}
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { readColors(); if (reduced) drawDots(0); });
+if (reduced) drawDots(0); else requestAnimationFrame(loop);
+
+/* ---------------------------------------------------------------- feature visuals */
+byId("mini-tiles").innerHTML = PROFILES.map((p) => `<span style="--tint:${p.tint}">${p.name}</span>`).join("");
+
+(function drawSpectrum() {
+  const svg = byId("spec"), w = 280, h = 136, top = 30, bottom = 118, left = 4, right = 276;
+  const lo = Math.log(SPECTRUM.bands[0]), hi = Math.log(SPECTRUM.bands.at(-1));
+  const X = (f) => left + (Math.log(f) - lo) / (hi - lo) * (right - left);
+  const Y = (db) => top + (-db / 35) * (bottom - top);
+  const path = (arr) => arr.map((v, i) => `${i ? "L" : "M"}${X(SPECTRUM.bands[i]).toFixed(1)},${Y(v).toFixed(1)}`).join("");
+  const grid = [0, -10, -20, -30].map((d) => `<line x1="${left}" x2="${right}" y1="${Y(d)}" y2="${Y(d)}" stroke="var(--line)" />`).join("");
+  const ticks = [[250, "250"], [1000, "1k"], [4000, "4k"], [12500, "12.5k Hz"]]
+    .map(([f, l], i, a) => `<text x="${X(f)}" y="${h - 2}" text-anchor="${i === 0 ? "start" : i === a.length - 1 ? "end" : "middle"}">${l}</text>`).join("");
+  svg.innerHTML = `${grid}
+    <path d="${path(SPECTRUM.keytone)} L${right},${bottom} L${left},${bottom}Z" fill="var(--g2)" opacity=".08"/>
+    <path d="${path(SPECTRUM.recorded)}" fill="none" stroke="var(--faint)" stroke-width="1.6" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>
+    <path d="${path(SPECTRUM.keytone)}" fill="none" stroke="var(--g2)" stroke-width="2" vector-effect="non-scaling-stroke"/>
+    ${ticks}`;
+})();
+
+// Waveforms drawn from the real synth (fixed seed, so the page looks the same each time).
+function wavePath(samples, w, h) {
+  const step = Math.max(1, Math.floor(samples.length / w));
+  let d = "";
+  for (let x = 0; x < w; x++) {
+    let m = 0;
+    for (let i = x * step; i < Math.min(samples.length, (x + 1) * step); i++) m = Math.max(m, Math.abs(samples[i]));
+    const a = m * (h / 2 - 1);
+    d += `M${x},${(h / 2 - a).toFixed(1)}V${(h / 2 + a).toFixed(1)}`;
+  }
+  return d;
+}
+(function drawWaves() {
+  const r = new Rng(7), len = Math.floor(0.018 * SR);
+  const press = render("thock", "standard", false, r), rel = render("thock", "standard", true, r);
+  const both = new Float32Array(len * 2);
+  both.set(press.subarray(0, Math.min(len, press.length)), 0);
+  both.set(rel.subarray(0, Math.min(len, rel.length)), len);
+  byId("wave-press").innerHTML = `<path d="${wavePath(both, 250, 28)}" stroke="var(--g2)" stroke-width="1" fill="none" vector-effect="non-scaling-stroke"/>`;
+  byId("variants").innerHTML = [0, 1, 2].map(() => {
+    const s = render("clacky", "standard", false, r).subarray(0, Math.floor(0.014 * SR));
+    return `<svg viewBox="0 0 250 28" preserveAspectRatio="none"><path d="${wavePath(s, 250, 28)}" stroke="var(--g1)" stroke-width="1" fill="none" vector-effect="non-scaling-stroke"/></svg>`;
+  }).join("") + `<div class="wl"><span>3 of 12 takes</span><span>clacky</span></div>`;
+})();
+</script>
+
+</body>
+</html>
