@@ -451,7 +451,7 @@ footer nav a:hover { color: var(--fg); }
       <div class="point">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
         <h3>Private</h3>
-        <p>Thockey uses only which key you pressed. Nothing is stored or sent anywhere.</p>
+        <p>Thockey uses only which key you pressed. Your typing is never stored or sent anywhere.</p>
       </div>
     </div>
 
@@ -539,7 +539,7 @@ footer nav a:hover { color: var(--fg); }
               <div class="no"><span>what you typed</span><span>never</span></div>
             </div>
           </div>
-          <div class="card-text"><h3>Private by design</h3><p>Thockey needs to know a key was pressed, and which one. It doesn’t store your typing and makes no network connections.</p></div>
+          <div class="card-text"><h3>Private by design</h3><p>Thockey needs to know a key was pressed, and which one. It doesn’t store your typing. Its only connection is a daily check for updates, which you can switch off.</p></div>
         </article>
         <article class="card">
           <div class="viz">
@@ -560,7 +560,8 @@ footer nav a:hover { color: var(--fg); }
       </div>
       <div class="setup">
         <ol class="steps">
-          <li><div><h3>Download and open Thockey</h3><p>Move it to Applications and open it. A keyboard icon appears in your menu bar.</p></div></li>
+          <li><div><h3>Download Thockey</h3><p>Unzip it and move Thockey to your Applications folder.</p></div></li>
+          <li><div><h3>Open it the first time</h3><p>Thockey isn’t from the App Store, so the first time you open it macOS says it can’t check it. Click <b>Done</b>, then open System Settings › Privacy &amp; Security, scroll down and click <b>Open Anyway</b> next to Thockey. You only do this once. On macOS 13 or 14 you can instead Control-click Thockey and choose Open.</p></div></li>
           <li><div><h3>Allow keyboard access</h3><p>macOS asks before any app can hear keys pressed in other apps. Click Allow in the panel, then switch Thockey on in System Settings › Privacy &amp; Security › Accessibility.</p></div></li>
           <li><div><h3>Pick a sound</h3><p>Choose from the grid and type. Set the volume, and turn on Open at login if you want it every day.</p></div></li>
         </ol>
@@ -572,7 +573,8 @@ footer nav a:hover { color: var(--fg); }
           <ul>
             <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>13 sounds, 8 fitted to real keyboards</li>
             <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Volume, release sounds and stereo controls</li>
-            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Works offline, nothing leaves your Mac</li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Works offline. Your typing never leaves your Mac</li>
+            <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>Updates itself when a new version is out</li>
             <li><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>macOS 13 Ventura or later</li>
           </ul>
           <a class="btn primary" href="#get" data-download>
@@ -588,8 +590,10 @@ footer nav a:hover { color: var(--fg); }
       <div class="faq">
         <details><summary>What does Thockey do?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
           <p>It plays a short sound every time you press a key, in any app. Pick the sound from the menu bar: mechanical keyboards, a typewriter, a quiet laptop tap, raindrops, bubbles or wood.</p></details>
+        <details><summary>macOS says Thockey can’t be opened. What do I do?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>That warning appears for apps from outside the App Store that aren’t notarised by Apple. Click Done, open System Settings › Privacy &amp; Security, scroll down and click Open Anyway next to Thockey, then confirm with your password. On macOS 13 or 14 you can instead Control-click Thockey in Applications and choose Open. You only need to do this once.</p></details>
         <details><summary>Does Thockey record what I type?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
-          <p>No. It uses only which key was pressed, to choose the sound and where it sits in stereo. It doesn’t save your typing and makes no network connections.</p></details>
+          <p>No. It uses only which key was pressed, to choose the sound and where it sits in stereo. It doesn’t save your typing. The only thing it ever asks the internet is whether a new version is out, once a day, and you can switch that off in the panel.</p></details>
         <details><summary>Why does it need Accessibility access?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
           <p>macOS only lets an app notice key presses in other apps once you allow it under System Settings › Privacy &amp; Security › Accessibility. Without it, Thockey can only play sounds while its own panel is open.</p></details>
         <details><summary>Why is there no sound in password fields?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
@@ -598,6 +602,8 @@ footer nav a:hover { color: var(--fg); }
           <p>Thocky, Creamy, Poppy, Clacky, Clicky, Tactile, Linear and Typewriter are fitted to recordings of real keyboards: the energy and decay of each key press were measured across 18 frequency bands and matched. The other sounds are modelled from how each one physically makes its sound.</p></details>
         <details><summary>Will it slow down my Mac?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
           <p>Sounds are prepared once, in about a tenth of a second, when you choose a profile. After that each key press just plays a short clip that’s already in memory.</p></details>
+        <details><summary>How do updates work?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
+          <p>Once a day Thockey checks GitHub for a new version. When one is out, the panel shows Install. Thockey downloads it, checks that it’s signed by the same developer as the copy you have, then replaces itself and reopens. Your settings and keyboard access carry over. You can turn the daily check off in the panel and check by hand instead.</p></details>
         <details><summary>What do I need to run it?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
           <p>A Mac running macOS 13 Ventura or later.</p></details>
         <details><summary>How do I uninstall it?<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></summary>
